@@ -1,4 +1,4 @@
-ARG GO_IMAGE=golang:1.26.4-alpine3.23
+ARG GO_IMAGE=golang:1.26.8-alpine3.23
 FROM ${GO_IMAGE} AS builder
 
 WORKDIR /build
